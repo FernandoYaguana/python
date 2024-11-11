@@ -40,13 +40,13 @@ To clone this repository to your local machine and start working with the projec
 
 7. Then in the VSCode terminal type the following command: _python -m uvicorn main:app --reload_
 
-7. Copy the line where http://127.0.0.1:8000 is displayed
+8. Copy the line where http://127.0.0.1:8000 is displayed
 
-8. Copy this url into your browser
+9. Copy this url into your browser
 
-9. When opening the URL, the following message should be displayed: Hola Mundo desde Python!
+10. When opening the URL, the following message should be displayed: Hola Mundo desde Python!
 
-10. To stop the program go to the VSCode terminal and press the Ctrl + C keys  
+11. To stop the program go to the VSCode terminal and press the Ctrl + C keys  
 
 ## Contribution
 
