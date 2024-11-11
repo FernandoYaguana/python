@@ -17,7 +17,7 @@ To clone this repository to your local machine and start working with the projec
 2. Open the terminal or command line and run the following command to clone the repository:
 
     bash
-    git clone https://github.com/FernandoYaguana/java.git
+    https://github.com/FernandoYaguana/python.git
    
 3. To verify that the repository was cloned correctly, enter the project directory:
    
@@ -26,35 +26,27 @@ To clone this repository to your local machine and start working with the projec
     
 ## Usage
 
-1. Open Netbeans
+1. Have Python installed
 
-2. In the File section, click on Open Project and go to the folder where we saved the Project
+2. Open VSCode
 
-3. Click on Open Project
+3. Drag the entire folder where we saved the project to VSCode
 
-4. If you have problems with Maven, go to step 5, otherwise go to step 6
+4. Open the main.py file 
 
-5. If you have problems with Maven, you can download it from [here](https://maven.apache.org/) and add the directory
-   
-of the folder that was generated when you unzipped the file, in the system environment variables in the path section.
+5. If you do not have the FastApi library installed, open the VSCode terminal and type the following command: _pip install fastapi_
 
-   - After performing this process, go to your Netbeans and in the tools section, click on option
-     
-   - Then go to the Java section
-     
-   - Look for Maven
-     
-   - In the MavenHome option, add the directory where you unzipped our Maven file and add it.
-     
-   - Click on Ok
-     
-   - Restart your NetBeans
-      
-6. Right click on your project
-   
-7. Click on Run
+6. If you do not have the Uvicorn library installed, open the VSCode terminal and type the following command: _pip install uvicorn_
 
-8. A message will appear saying: Hola Mundo desde Java
+7. Then in the VSCode terminal type the following command: _python -m uvicorn main:app --reload_
+
+7. Copy the line where http://127.0.0.1:8000 is displayed
+
+8. Copy this url into your browser
+
+9. When opening the URL, the following message should be displayed: Hola Mundo desde Python!
+
+10. To stop the program go to the VSCode terminal and press the Ctrl + C keys  
 
 ## Contribution
 
