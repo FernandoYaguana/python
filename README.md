@@ -2,7 +2,7 @@
 
 This is a sample Python Web Project that displays a simple "Hello World" message in a view.
 
-> To view this project in your browser you can click [here](https://python-production-832a.up.railway.app/).
+> To view this project in your browser you can click [here](https://python-production-588a.up.railway.app/).
 
 ## Technologies used
 
